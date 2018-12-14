@@ -1,0 +1,35 @@
+{
+  "name": "diceware-word",
+  "version": "1.0.0",
+  "description": "Generate passphrse word from diceware dictionary",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bredele/diceware-word.git"
+  },
+  "keywords": [
+    "diceware",
+    "word",
+    "passphrase",
+    "random"
+  ],
+  "author": "Olivier Wietrich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/diceware-word/issues"
+  },
+  "homepage": "https://github.com/bredele/diceware-word#readme",
+  "dependencies": {
+    "dice-random": "^1.0.0",
+    "diceware-list": "^1.0.0"
+  },
+  "devDependencies": {
+    "tape": "^4.9.1"
+  }
+}
