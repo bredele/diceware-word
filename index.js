@@ -3,11 +3,19 @@
  */
 
 const random = require('dice-random')
-const list = require('diceware-list')
+const diceware = require('diceware-list')
 
+/**
+ * Create a word from a diceware dictionary.
+ *
+ * @param {Number} entroy (default 5)
+ * @param {Object} dictionary (default EFF Long)
+ * @return {String}
+ * @api public
+ */
 
-module.exports = (entropy = 5) => {
+module.exports = (entropy = 5, dictionary = diceware) => {
   let number = ''
   while (entropy--) number += random()
-  return list(number)
+  return dictionary(number)
 }
