@@ -5,7 +5,7 @@
  [![Downloads](https://img.shields.io/npm/dm/diceware-word.svg)](http://npm-stat.com/charts.html?package=diceware-word)
  [![pledge](https://bredele.github.io/contributing-guide/community-pledge.svg)](https://github.com/bredele/contributing-guide/blob/master/guidelines.md)
 
-Create [diceware word](https://github.com/bredele/diceware-list) using [dices](https://github.com/bredele/dice-random) as random number generators. A word requires five rolls of the dice and each word generated adds 12.9 bits (![entropy](http://latex.codecogs.com/gif.latex?%5Clog_%7Be%7D%286%5E5%29))of entropy to your passphrase.
+Create [diceware word](https://github.com/bredele/diceware-list) using [dices](https://github.com/bredele/dice-random) as random number generators. A word requires five rolls of the dice and each word generated adds 12.9 bits ![entropy](http://latex.codecogs.com/gif.latex?%5Clog_%7Be%7D%286%5E5%29) of entropy to your passphrase.
 
 
 ## Usage
